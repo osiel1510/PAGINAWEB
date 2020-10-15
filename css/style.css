@@ -55,6 +55,11 @@
   width: 100%;
   z-index: 2; }
 
+.centrado{
+    margin:50px auto;
+    display:block;
+}
+
 .site-navigation-inner {
   display: flex;
   align-items: center;
