@@ -246,6 +246,11 @@
   float: right;
   
 }
+.imgizquierda{
+
+  float: left;
+  
+}
 
 .brand-span {
   font-size: 20px;
