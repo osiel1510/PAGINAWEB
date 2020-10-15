@@ -132,7 +132,7 @@
   position: relative;
   display: flex;
   align-items: flex-end;
-  background-image: url("../images/top-banner-bckg.jpg");
+  background-image: url("../images/AAA.jpg");
   background-position: center;
   background-size: cover; }
   .fh5co-top-banner::after {
@@ -251,7 +251,7 @@
 
 .about-me-bckg {
   position: absolute;
-  background-image: url("../images/about-me-bckg.jpg");
+  background-image: url("../images/about.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -633,7 +633,7 @@
   position: relative;
   padding: 135px 0 172px;
   text-align: center;
-  background-image: url("../images/quotes-bckg.jpg");
+  background-image: url("../images/bb.jpg");
   background-position: center;
   background-size: cover; }
   .fh5co-quotes::after {
