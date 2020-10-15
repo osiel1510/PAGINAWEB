@@ -7,7 +7,7 @@
 /* Fonts */
 @font-face {
   font-family: 'Calisto-MT';
-  src: url(../fonts/Calisto-MT.ttf); }
+  src: url(../fonts/Kidie\ Monster-puo.ttf); }
 
 @font-face {
   font-family: 'Calisto-MT-Italic';
@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: 'Calisto-MT-Bold';
-  src: url(../fonts/Calisto-MT-Bold.ttf); }
+  src: url(../fonts/Yourdream.otf); }
 
 /* Colors */
 /* Universal style */
@@ -174,13 +174,14 @@
         margin-left: 0; } }
     .top-banner__inner .top-banner__text p {
       margin-bottom: 42px;
+      font-size: 35px;
       color: #777; }
       @media (max-width: 768px) {
         .top-banner__inner .top-banner__text p {
           margin-bottom: 25px;
-          font-size: 14px; } }
+          font-size: 18px; } }
   .top-banner__inner .top-banner__h2 {
-    font-size: 74px;
+    font-size: 120px;
     letter-spacing: 3px;
     color: #fff;
     font-family: "Calisto-MT-Bold"; }
@@ -219,20 +220,10 @@
       flex-direction: column; } }
 
 .brand-span {
-  font-size: 14px;
+  font-size: 40px;
   color: #c18f59; }
 
-.brand-button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 11px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #c18f59;
-  border: 1px solid #fff;
-  transition: 0.3s ease; }
-  .brand-button:hover, .brand-button:focus {
-    color: #777; }
+
 
 .fh5co-about-me {
   position: relative;
