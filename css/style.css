@@ -1,13 +1,7 @@
-/*
- * Author by FreeHTML5.co
- * Twitter: https://twitter.com/fh5co
- * Facebook: https://fb.com/fh5co
- * URL: https://freehtml5.co
- */
 /* Fonts */
 @font-face {
   font-family: 'Calisto-MT';
-  src: url(../fonts/Calisto-MT.ttf); }
+  src: url(../fonts/Keep\ the\ Faith\ -\ TTF.ttf); }
 
 @font-face {
   font-family: 'Calisto-MT-Italic';
@@ -15,7 +9,7 @@
 
 @font-face {
   font-family: 'Calisto-MT-Bold';
-  src: url(../fonts/Calisto-MT-Bold.ttf); }
+  src: url(../fonts/Orange\ Juice.otf); }
 
 /* Colors */
 /* Universal style */
@@ -32,7 +26,7 @@
       width: 90%; } }
 
 .universal-h2 {
-  font-size: 48px;
+  font-size: 60px;
   text-align: center;
   color: #222; }
   @media (max-width: 1250px) {
@@ -40,7 +34,7 @@
       font-size: 38px; } }
   @media (max-width: 668px) {
     .universal-h2 {
-      font-size: 30px; } }
+      font-size: 38px; } }
 
 .universal-h2-bckg {
   background-image: url("../images/double-line.svg");
@@ -55,9 +49,24 @@
   width: 100%;
   z-index: 2; }
 
+ 
+
 .centrado{
     margin:50px auto;
     display:block;
+}
+
+.derecha{
+  float: right;
+}
+
+.padreSC {
+  display: flex;
+  justify-content: center;
+}
+.hijoSC {
+  padding: 10px;
+  margin: 10px;
 }
 
 .site-navigation-inner {
@@ -66,14 +75,14 @@
   justify-content: space-between; }
 
 .main-navigation {
-  color: #fff;
+  color: rgb(13, 136, 252);
   display: none;
   position: fixed;
   height: 100%;
   width: 100%;
   top: 0px;
   left: 0px;
-  background: #000;
+  background: rgb(6, 29, 228);
   opacity: 0.9; }
   .main-navigation .main-navigation__ul {
     position: absolute;
@@ -81,21 +90,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 3%;
-    border: 2px solid #fff;
+    border: 2px solid rgb(18, 62, 209);
     border-radius: 7px;
-    background-color: #c18f59; }
+    background-color: #1f0ffc; }
     .main-navigation .main-navigation__ul li {
       margin-bottom: 20px;
       list-style: none; }
     .main-navigation .main-navigation__ul a {
-      color: #fff;
+      color: rgb(13, 90, 233);
       font-size: 20px;
       font-weight: 600;
       text-decoration: none;
       text-transform: uppercase;
       transition: 0.3s ease; }
       .main-navigation .main-navigation__ul a:hover {
-        color: #777; }
+        color: rgb(17, 120, 236); }
   @media (max-width: 1150px) {
     .main-navigation {
       opacity: 0.94; } }
@@ -108,13 +117,13 @@
 .bar1, .bar2, .bar3 {
   width: 30px;
   height: 3px;
-  background-color: #c18f59;
+  background-color: #206ad8;
   margin: 6px 0;
   transition: 0.4s; }
 
 .change .bar1 {
   transform: rotate(-45deg) translate(-6px, 6px);
-  background-color: #c18f59; }
+  background-color: #1858e0; }
 
 .change .bar2 {
   opacity: 0;
@@ -152,10 +161,10 @@
       padding-top: 180px; } }
   @media (max-width: 1250px) {
     .fh5co-top-banner {
-      padding-top: 130px; } }
+      padding-top: 10px; } }
   @media (max-width: 520px) {
     .fh5co-top-banner {
-      padding-top: 105px; } }
+      padding-top: 135px; } }
   @media (min-width: 1600px) {
     .fh5co-top-banner {
       min-height: 100vh; } }
@@ -179,32 +188,35 @@
         margin-left: 0; } }
     .top-banner__inner .top-banner__text p {
       margin-bottom: 42px;
+      font-size: 22px;
       color: #777; }
       @media (max-width: 768px) {
         .top-banner__inner .top-banner__text p {
           margin-bottom: 25px;
-          font-size: 14px; } }
+          font-size: 18px; } }
   .top-banner__inner .top-banner__h2 {
-    font-size: 74px;
+    font-size: 10px;
     letter-spacing: 3px;
     color: #fff;
     font-family: "Calisto-MT-Bold"; }
     @media (max-width: 1250px) {
       .top-banner__inner .top-banner__h2 {
-        font-size: 50px; } }
+        font-size: 20px; } }
     @media (max-width: 768px) {
       .top-banner__inner .top-banner__h2 {
-        font-size: 35px; } }
+        font-size: 50px; } }
   .top-banner__inner .top-banner__text-up .top-banner__h2 {
-    margin-top: 15px; }
+    margin-top: 15px; 
+     font-size: 100px;}
     @media (max-width: 768px) {
       .top-banner__inner .top-banner__text-up .top-banner__h2 {
-        margin-top: 0; } }
+        margin-top: 20; } }
   .top-banner__inner .top-banner__text-down {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-left: 27%; }
     .top-banner__inner .top-banner__text-down .top-banner__h2 {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      font-size: 100px; }
       @media (max-width: 768px) {
         .top-banner__inner .top-banner__text-down .top-banner__h2 {
           margin-bottom: 0; } }
@@ -223,21 +235,31 @@
     .top-banner__inner {
       flex-direction: column; } }
 
-.brand-span {
-  font-size: 14px;
-  color: #c18f59; }
+.normal-span{
+  font-size: 20px;
+  color: #000000;
+}
 
+.imgderecha{
+
+  float: right;
+  
+}
+
+.brand-span {
+  font-size: 20px;
+  color: #c18f59; }
 .brand-button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 11px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #c18f59;
-  border: 1px solid #fff;
-  transition: 0.3s ease; }
-  .brand-button:hover, .brand-button:focus {
-    color: #777; }
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #c18f59;
+    border: 1px solid #fff;
+    transition: 0.3s ease; }
+    .brand-button:hover, .brand-button:focus {
+      color: #777; }
 
 .fh5co-about-me {
   position: relative;
@@ -345,6 +367,7 @@
     padding: 0 10%;
     line-height: 25px;
     font-style: italic;
+    font-size: 25px;
     color: #777; }
     @media (max-width: 620px) {
       .portfolio-wrapper p {
@@ -362,12 +385,14 @@
   margin-right: 80px;
   text-align: center; }
   .about-me__text .universal-h2 {
+    font-family: 'Calisto-MT-Bold';
     color: #fff;
     padding-bottom: 20px;
     margin-bottom: 25px; }
   .about-me__text p {
     margin-bottom: 35px;
     line-height: 24px;
+    font-size: 22px;
     color: #c18f59; }
     .about-me__text p span {
       font-size: 48px;
@@ -379,7 +404,7 @@
         line-height: 19px; } }
   .about-me__text h4 {
     margin-bottom: 7px;
-    font-size: 25px;
+    font-size: 28px;
     color: #c18f59; }
   .about-me__text .p-white {
     margin-bottom: 0;
@@ -400,19 +425,21 @@
   margin-bottom: 122px; }
   .fh5co-books .universal-h2 {
     margin-bottom: 50px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    font-family: 'Calisto-MT-Bold'; }
   .fh5co-books .books-brand-button {
     text-align: center; }
     .fh5co-books .books-brand-button .brand-button {
-      font-size: 16px;
-      text-transform: none;
-      border-color: #c18f59; }
-      .fh5co-books .books-brand-button .brand-button:hover {
-        border-color: #777; }
-  @media (max-width: 1250px) {
-    .fh5co-books {
-      margin-bottom: 60px; } }
+      font-size: 25px;
+        text-transform: none;
+        border-color: #c18f59; }
+        .fh5co-books .books-brand-button .brand-button:hover {
+          border-color: #777; }
+    @media (max-width: 1250px) {
+      .fh5co-books {
+        margin-bottom: 60px; } }
 
+        
 .books {
   display: flex;
   justify-content: space-between;
@@ -421,6 +448,8 @@
   @media (max-width: 559px) {
     .books {
       justify-content: space-around; } }
+
+      
 
 .single-book {
   margin-bottom: 20px;
@@ -452,9 +481,9 @@
     margin: 19px 0 18px;
     font-size: 18px; }
   .single-book .single-book__price {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
-    font-style: italic;
+    font-style: regular;
     color: #c18f59; }
   @media (max-width: 1250px) {
     .single-book {
@@ -537,6 +566,7 @@
 .fh5co-blog {
   margin-bottom: 175px; }
   .fh5co-blog .universal-h2 {
+    font-family: 'Calisto-MT-Bold';
     margin-bottom: 55px;
     padding-bottom: 20px; }
   @media (max-width: 620px) {
@@ -570,7 +600,7 @@
     .single-blog .single-blog__text span {
       display: block;
       margin-bottom: 15px;
-      font-size: 14px;
+      font-size: 25px;
       color: #c18f59;
       font-family: "Calisto-MT-Bold"; }
     .single-blog .single-blog__text p {
@@ -649,10 +679,12 @@
     position: relative;
     z-index: 1; }
   .fh5co-quotes .universal-h2 {
+    font-family: 'Calisto-MT-Bold';
     padding-bottom: 20px;
     margin-bottom: 30px;
     color: #fff !important; }
   .fh5co-quotes p {
+    font-size: 20px;
     width: 43%;
     margin: 0 auto 45px;
     color: #fff;
