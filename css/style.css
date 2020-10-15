@@ -55,9 +55,24 @@
   width: 100%;
   z-index: 2; }
 
+ 
+
 .centrado{
     margin:50px auto;
     display:block;
+}
+
+.derecha{
+  float: right;
+}
+
+.padreSC {
+  display: flex;
+  justify-content: center;
+}
+.hijoSC {
+  padding: 10px;
+  margin: 10px;
 }
 
 .site-navigation-inner {
@@ -192,7 +207,7 @@
     font-family: "Calisto-MT-Bold"; }
     @media (max-width: 1250px) {
       .top-banner__inner .top-banner__h2 {
-        font-size: 50px; } }
+        font-size: 20px; } }
     @media (max-width: 768px) {
       .top-banner__inner .top-banner__h2 {
         font-size: 50px; } }
@@ -201,7 +216,7 @@
      font-size: 80px;}
     @media (max-width: 768px) {
       .top-banner__inner .top-banner__text-up .top-banner__h2 {
-        margin-top: 0; } }
+        margin-top: 20; } }
   .top-banner__inner .top-banner__text-down {
     margin-bottom: 20px;
     padding-left: 27%; }
@@ -225,6 +240,17 @@
   @media (max-width: 520px) {
     .top-banner__inner {
       flex-direction: column; } }
+
+.normal-span{
+  font-size: 20px;
+  color: #000000;
+}
+
+.imgderecha{
+
+  float: right;
+  
+}
 
 .brand-span {
   font-size: 20px;
@@ -415,6 +441,7 @@
       .fh5co-books {
         margin-bottom: 60px; } }
 
+        
 .books {
   display: flex;
   justify-content: space-between;
@@ -423,6 +450,8 @@
   @media (max-width: 559px) {
     .books {
       justify-content: space-around; } }
+
+      
 
 .single-book {
   margin-bottom: 20px;
