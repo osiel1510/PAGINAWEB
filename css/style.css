@@ -1,7 +1,8 @@
+
 /* Fonts */
 @font-face {
   font-family: 'Calisto-MT';
-  src: url(../fonts/Calisto-MT.ttf); }
+  src: url(../fonts/Keep\ the\ Faith\ -\ TTF.ttf); }
 
 @font-face {
   font-family: 'Calisto-MT-Italic';
@@ -92,7 +93,7 @@
     padding: 3%;
     border: 2px solid #fff;
     border-radius: 7px;
-    background-color: #119dc0; }
+    background-color: hsl(192, 91%, 43%); }
     .main-navigation .main-navigation__ul li {
       margin-bottom: 20px;
       list-style: none; }
@@ -187,6 +188,7 @@
         margin-bottom: 20px;
         margin-left: 0; } }
     .top-banner__inner .top-banner__text p {
+      font-size: 20px;
       margin-bottom: 42px;
       color: #777; }
       @media (max-width: 768px) {
@@ -244,10 +246,20 @@
   float: right;
   
 }
+.imgizquierda{
+
+  float: left;
+  
+}
 
 .brand-span {
+<<<<<<< HEAD
   font-size: 14px;
   color: #11a5ca; }
+=======
+  font-size: 20px;
+  color: #c18f59; }
+>>>>>>> 98898462ad7afef8db54d93f856327156373f5a6
 
 .brand-button {
   display: inline-block;
