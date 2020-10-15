@@ -247,7 +247,7 @@
 
 .brand-span {
   font-size: 14px;
-  color: #c18f59; }
+  color: #11a5ca; }
 
 .brand-button {
   display: inline-block;
@@ -255,7 +255,7 @@
   font-size: 11px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #c18f59;
+  color: #11a5ca;
   border: 1px solid #fff;
   transition: 0.3s ease; }
   .brand-button:hover, .brand-button:focus {
@@ -393,7 +393,7 @@
     margin-bottom: 35px;
     line-height: 24px;
     font-size: 22px;
-    color: #c18f59; }
+    color: #11a5ca; }
     .about-me__text p span {
       font-size: 48px;
       color: #fff; }
@@ -405,7 +405,7 @@
   .about-me__text h4 {
     margin-bottom: 7px;
     font-size: 28px;
-    color: #c18f59; }
+    color: #11a5ca; }
   .about-me__text .p-white {
     margin-bottom: 0;
     color: #fff; }
@@ -432,7 +432,7 @@
     .fh5co-books .books-brand-button .brand-button {
       font-size: 25px;
         text-transform: none;
-        border-color: #c18f59; }
+        border-color:#11a5ca; }
         .fh5co-books .books-brand-button .brand-button:hover {
           border-color: #777; }
     @media (max-width: 1250px) {
@@ -497,7 +497,7 @@
   direction: rtl; }
   .rating span {
     font-size: 23px;
-    color: #09e07c;
+    color: #e0ca09;
     cursor: pointer; }
   .rating > span:hover:before, .rating > span:hover ~ span:before {
     content: "\2605";
@@ -601,7 +601,7 @@
       display: block;
       margin-bottom: 15px;
       font-size: 25px;
-      color: #c18f59;
+      color: #11a5ca;
       font-family: "Calisto-MT-Bold"; }
     .single-blog .single-blog__text p {
       color: #777;
@@ -628,7 +628,7 @@
           font-size: 13px;
           line-height: 16px; } }
   .single-blog:nth-child(even) h4 {
-    color: #11a5ca; }
+    color: #111111; }
   @media (max-width: 1250px) {
     .single-blog .single-blog__img img {
       width: 100%;
@@ -853,12 +853,12 @@
     border: 1px solid #404040;
     background-color: #282828;
     resize: none;
-    color: #59c18d; }
+    color: hsl(60, 58%, 94%); }
   .footer-contact-form .submit-button {
     padding: 19px 50px;
     text-transform: uppercase;
     font-size: 12px;
-    color: rgb(51, 226, 130);
+    color: #fcfbf4;
     background-color: #11a5ca;
     border: none;
     border-radius: 3px;
