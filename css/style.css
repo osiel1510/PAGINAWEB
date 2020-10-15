@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'Calisto-MT';
-  src: url(../fonts/Calisto-MT.ttf); }
+  src: url(../fonts/Keep\ the\ Faith\ -\ TTF.ttf); }
 
 @font-face {
   font-family: 'Calisto-MT-Italic';
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Calisto-MT-Bold';
-  src: url(../fonts/Calisto-MT-Bold.ttf); }
+  src: url(../fonts/Yourdream.otf); }
 
 /* Colors */
 /* Universal style */
@@ -26,7 +26,7 @@
       width: 90%; } }
 
 .universal-h2 {
-  font-size: 48px;
+  font-size: 100px;
   text-align: center;
   color: #222; }
   @media (max-width: 1250px) {
@@ -34,7 +34,7 @@
       font-size: 38px; } }
   @media (max-width: 668px) {
     .universal-h2 {
-      font-size: 30px; } }
+      font-size: 38px; } }
 
 .universal-h2-bckg {
   background-image: url("../images/double-line.svg");
@@ -173,13 +173,14 @@
         margin-left: 0; } }
     .top-banner__inner .top-banner__text p {
       margin-bottom: 42px;
+      font-size: 22px;
       color: #777; }
       @media (max-width: 768px) {
         .top-banner__inner .top-banner__text p {
           margin-bottom: 25px;
-          font-size: 14px; } }
+          font-size: 18px; } }
   .top-banner__inner .top-banner__h2 {
-    font-size: 74px;
+    font-size: 150px;
     letter-spacing: 3px;
     color: #fff;
     font-family: "Calisto-MT-Bold"; }
@@ -188,9 +189,10 @@
         font-size: 50px; } }
     @media (max-width: 768px) {
       .top-banner__inner .top-banner__h2 {
-        font-size: 35px; } }
+        font-size: 50px; } }
   .top-banner__inner .top-banner__text-up .top-banner__h2 {
-    margin-top: 15px; }
+    margin-top: 15px; 
+     font-size: 80px;}
     @media (max-width: 768px) {
       .top-banner__inner .top-banner__text-up .top-banner__h2 {
         margin-top: 0; } }
@@ -198,7 +200,8 @@
     margin-bottom: 20px;
     padding-left: 27%; }
     .top-banner__inner .top-banner__text-down .top-banner__h2 {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      font-size: 80px; }
       @media (max-width: 768px) {
         .top-banner__inner .top-banner__text-down .top-banner__h2 {
           margin-bottom: 0; } }
@@ -218,6 +221,7 @@
       flex-direction: column; } }
 
 .brand-span {
+<<<<<<< HEAD
   font-size: 14px;
   color: #11a5ca; }
 
@@ -232,6 +236,21 @@
   transition: 0.3s ease; }
   .brand-button:hover, .brand-button:focus {
     color: #777; }
+=======
+  font-size: 20px;
+  color: #c18f59; }
+.brand-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #c18f59;
+    border: 1px solid #fff;
+    transition: 0.3s ease; }
+    .brand-button:hover, .brand-button:focus {
+      color: #777; }
+>>>>>>> 10ad24c3cbbc524ffdd6d80bbb744d647db187e4
 
 .fh5co-about-me {
   position: relative;
@@ -399,6 +418,7 @@
     text-align: center; }
     .fh5co-books .books-brand-button .brand-button {
       font-size: 16px;
+<<<<<<< HEAD
       text-transform: none;
       border-color: #11a5ca; }
       .fh5co-books .books-brand-button .brand-button:hover {
@@ -406,6 +426,15 @@
   @media (max-width: 1250px) {
     .fh5co-books {
       margin-bottom: 60px; } }
+=======
+        text-transform: none;
+        border-color: #c18f59; }
+        .fh5co-books .books-brand-button .brand-button:hover {
+          border-color: #777; }
+    @media (max-width: 1250px) {
+      .fh5co-books {
+        margin-bottom: 60px; } }
+>>>>>>> 10ad24c3cbbc524ffdd6d80bbb744d647db187e4
 
 .books {
   display: flex;
@@ -446,10 +475,15 @@
     margin: 19px 0 18px;
     font-size: 18px; }
   .single-book .single-book__price {
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 600;
+<<<<<<< HEAD
     font-style: italic;
     color: #11a5ca; }
+=======
+    font-style: regular;
+    color: #c18f59; }
+>>>>>>> 10ad24c3cbbc524ffdd6d80bbb744d647db187e4
   @media (max-width: 1250px) {
     .single-book {
       margin-right: 10px; }
