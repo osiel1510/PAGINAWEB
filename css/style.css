@@ -7,7 +7,7 @@
 /* Fonts */
 @font-face {
   font-family: 'Calisto-MT';
-  src: url(../fonts/Calisto-MT.ttf); }
+  src: url(../fonts/Keep\ the\ Faith\ -\ TTF.ttf); }
 
 @font-face {
   font-family: 'Calisto-MT-Italic';
@@ -179,14 +179,14 @@
         margin-left: 0; } }
     .top-banner__inner .top-banner__text p {
       margin-bottom: 42px;
-      font-size: 35px;
+      font-size: 22px;
       color: #777; }
       @media (max-width: 768px) {
         .top-banner__inner .top-banner__text p {
           margin-bottom: 25px;
           font-size: 18px; } }
   .top-banner__inner .top-banner__h2 {
-    font-size: 120px;
+    font-size: 150px;
     letter-spacing: 3px;
     color: #fff;
     font-family: "Calisto-MT-Bold"; }
@@ -195,9 +195,10 @@
         font-size: 50px; } }
     @media (max-width: 768px) {
       .top-banner__inner .top-banner__h2 {
-        font-size: 35px; } }
+        font-size: 50px; } }
   .top-banner__inner .top-banner__text-up .top-banner__h2 {
-    margin-top: 15px; }
+    margin-top: 15px; 
+     font-size: 80px;}
     @media (max-width: 768px) {
       .top-banner__inner .top-banner__text-up .top-banner__h2 {
         margin-top: 0; } }
@@ -205,7 +206,8 @@
     margin-bottom: 20px;
     padding-left: 27%; }
     .top-banner__inner .top-banner__text-down .top-banner__h2 {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      font-size: 80px; }
       @media (max-width: 768px) {
         .top-banner__inner .top-banner__text-down .top-banner__h2 {
           margin-bottom: 0; } }
@@ -225,7 +227,7 @@
       flex-direction: column; } }
 
 .brand-span {
-  font-size: 40px;
+  font-size: 20px;
   color: #c18f59; }
 .brand-button {
     display: inline-block;
