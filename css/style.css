@@ -1,5 +1,5 @@
 
-/* Fonts */
+/* Fuentes */
 @font-face {
   font-family: 'Calisto-MT';
   src: url(../fonts/Keep\ the\ Faith\ -\ TTF.ttf); }
@@ -12,8 +12,7 @@
   font-family: 'Calisto-MT-Bold';
   src: url(../fonts/Orange\ Juice.otf); }
 
-/* Colors */
-/* Universal style */
+
 * {
   margin: 0;
   padding: 0;
@@ -42,8 +41,7 @@
   background-repeat: no-repeat;
   background-position: center bottom; }
 
-/* Universal style end */
-/* Includes */
+
 .site-navigation {
   position: absolute;
   top: 4.6%;
@@ -110,7 +108,7 @@
     .main-navigation {
       opacity: 0.94; } }
 
-/* Navigation burger */
+
 .burger-container {
   cursor: pointer;
   z-index: 3; }
@@ -137,7 +135,7 @@
 .stop-scroll {
   overflow: hidden; }
 
-/* Navigation burger end */
+
 .fh5co-top-banner {
   position: relative;
   display: flex;
@@ -253,13 +251,8 @@
 }
 
 .brand-span {
-<<<<<<< HEAD
   font-size: 14px;
   color: #11a5ca; }
-=======
-  font-size: 20px;
-  color: #c18f59; }
->>>>>>> 98898462ad7afef8db54d93f856327156373f5a6
 
 .brand-button {
   display: inline-block;
